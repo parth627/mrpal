@@ -1,3 +1,4 @@
+// components/PageLayout.js
 import Header from './Header';
 import Footer from './Footer';
 
