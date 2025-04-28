@@ -2,7 +2,7 @@ import { ThemeProvider } from '../components/ThemeProvider';
 import Head from 'next/head';
 import '../styles/globals.css';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/mrpal' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '' : '';
 
 export default function App({ Component, pageProps }) {
   return (

@@ -1,6 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
-const basePath = process.env.NODE_ENV === 'production' ? '/mrpal' : '';
+const basePath = process.env.NODE_ENV === 'production' ? '' : '';
 
 export default function Document() {
   return (
