@@ -13,6 +13,9 @@ export default function Footer() {
           <p className="text-sm font-sans text-gray-500 dark:text-gray-400 select-none">
             © {new Date().getFullYear()} all energy reserved
           </p>
+          <Link href="/feedback" className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:underline underline-offset-4">
+            Give Feedback
+          </Link>
         </div>
       </div>
     </footer>
