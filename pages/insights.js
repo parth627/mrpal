@@ -3,6 +3,14 @@ import PageLayout from '../components/PageLayout';
 
 const insightsData = [
   {
+    date: 'May 3, 2025',
+    points: [
+      "You don't need a revolutionary idea to start a revolutionary business. (The $100 Startup by Chris Guillebeau)",
+      "Value is created when a person makes something useful and shares it with the world. (The $100 Startup by Chris Guillebeau)",
+      "Stop guessing what other people want. Help them solve their problems. (The $100 Startup by Chris Guillebeau)",
+    ],
+  },
+  {
     date: 'April 26, 2025',
     points: [
       "All failed companies are the same: they failed to escape competition. (Zero to One by Peter Thiel)",
@@ -40,14 +48,6 @@ const insightsData = [
       "Deep work is like a superpower in our increasingly competitive economy. (Deep Work by Cal Newport)",
       "The ability to perform deep work is becoming increasingly rare at exactly the same time it is becoming increasingly valuable. (Deep Work by Cal Newport)",
       "Who you are, what you think, feel, and do, what you love—is the sum of what you focus on. (Deep Work by Cal Newport)",
-    ],
-  },
-  {
-    date: 'March 22, 2025',
-    points: [
-      "You don't need a revolutionary idea to start a revolutionary business. (The $100 Startup by Chris Guillebeau)",
-      "Value is created when a person makes something useful and shares it with the world. (The $100 Startup by Chris Guillebeau)",
-      "Stop guessing what other people want. Help them solve their problems. (The $100 Startup by Chris Guillebeau)",
     ],
   }
 ];
